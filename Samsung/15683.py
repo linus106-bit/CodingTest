@@ -25,7 +25,6 @@ def count_room(room):
     return cnt
 
 
-
 def cctv_watching(x,y, path, room):
     for k in path:
         new_x = x
@@ -51,7 +50,7 @@ def dfs(room, cctv_list, step):
     for i in path[cctv_num]:
         cctv_watching(x,y,i,new_room)
         dfs(new_room,cctv_list,step+1)
-        new_room = copy.deepcopy(room)  # 끝나고 이동하기 전 room으로 다시 되돌리기
+        new_room = copy.deepcopy(room) # 끝나고 이동하기 전 room으로 다시 되돌리기
 
     
 
