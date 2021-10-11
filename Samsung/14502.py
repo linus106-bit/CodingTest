@@ -53,8 +53,6 @@ def move_virus(i,j,lab):
 
 
 
-
-
 n,m,lab = init()
 ans = 0
 virus_list = find_virus(lab)
