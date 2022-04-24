@@ -1,4 +1,4 @@
-
+# N과M 1번 => 중복되지 않게 숫자 조합 찾기
 n,m = map(int, input().split())
 
 answer = []
