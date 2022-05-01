@@ -1,3 +1,4 @@
-people1 =20
-people2 = 50
-print("diff :", abs(people1-people2))
+d = [0,1,2,3]
+for i in d:
+    i ^= 1
+    print(i)
