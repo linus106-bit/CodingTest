@@ -38,8 +38,8 @@ def dfs(chicken_list,depth):
     elif depth == len(chickens):
         return
     new_list = deepcopy(chicken_list)
-    new_list.append(chickens[depth])
 
+    new_list.append(chickens[depth])
     dfs(new_list,depth+1)
 
     new_list.pop(-1)
